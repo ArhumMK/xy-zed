@@ -7,6 +7,7 @@
       "name": "XY-Zed",
       "appearance": "dark",
       "style": {
+        "background.appearance": "blurred",
         "border": "#ffffff20", // white (very transparent)
         "border.variant": "#ffffff20", // white (very transparent)
         "border.focused": "#FF0000", // ?
@@ -49,7 +50,7 @@
         // "panel.focused_border": null,
         "panel.focused_border": "FF0000", // ?
         "scrollbar.thumb.background": "#aca8ae30", // muted transparent
-        "scrollbar.thumb.hover_background": "#FF0000", // ?
+        "scrollbar.thumb.hover_background": "#aca8ae50", // muted transparent slightly lighter
         "scrollbar.thumb.border": "#ffffff20", // white (very transparent)
         "scrollbar.track.background": "#1b1b1b80", // black (scondary, darkest transparent)
         "scrollbar.track.border": "#ffffff10", // white (lightest transparent)
@@ -62,7 +63,7 @@
         "editor.line_number": "#3b3b3b", // grey (faded)
         "editor.active_line_number": "#7de486ff", // green (accent)
         "editor.invisible": "#f7f7f810",
-        "editor.wrap_guide": "#FF0000", // ?
+        "editor.wrap_guide": "#aca8ae50", // muted transparent slightly lighter
         "editor.active_wrap_guide": "#ffffff20", // white (very transparent)
         "editor.document_highlight.read_background": "#7de48625", // green (darker transparent)
         "editor.document_highlight.write_background": "#7de48670", // green (darkest transparent)
@@ -111,7 +112,7 @@
         "hidden.background": "#262933ff",
         "hidden.border": "#292d37ff",
         "hint": "#618399ff",
-        "hint.background": "#12231fff",
+        "hint.background": "#242424",
         "hint.border": "#183934ff",
         "ignored": "#aca8aeff",
         "ignored.background": "#262933ff",
@@ -236,8 +237,9 @@
             "font_weight": null
           },
           "hint": {
-            "color": "#FF0000", // ?
-            "font_style": null,
+            "color": "#6B6B73", // Faded gray
+			"background_color": "#1b1b1b",
+            "font_style": "italic",
             "font_weight": 700
           },
           "keyword": {
